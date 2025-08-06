@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div Practice</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .red {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        margin: 30px;
+        display: inline-block;
+      }
+      .green {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        border-radius: 100%;
+        display: inline-block;
+        margin: 30px;
+      }
+      .pop {
+        width: 250px;
+        height: 70px;
+        display: inline-block;
+        border: 1px solid rgb(96, 96, 96);
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 30px;
+        vertical-align: middle;
+        line-height: 30px;
+      }
+      .music {
+        margin: 30px;
+        background-color: rgb(41, 41, 41);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 18px;
+        padding-right: 18px;
+        display: inline-block;
+        color: whitesmoke;
+      }
+      .thumbnail{
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+      }
+      .tab{
+        display:grid;
+        grid-template-columns: 200px;
+        
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+        cursor: pointer;
+      }
+      .btn{
+        background-color: #3f26b7;
+        border: none;
+        color: white;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        border-radius: 2px;
+        
+      }
+      .name{
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 9px;
+      }
+      .friend{
+        color: rgb(96, 96, 96);
+        margin-bottom: 9px;
+      }
+      .container{
+        padding:10px;
+
+      }
+      .grid{
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 20px;
+        margin: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red"></div>
+    <div class="green"></div>
+    <br />
+    <div class="pop">
+      <p>Satisfied with our service?</p>
+      <button>Yes</button>
+      <button>No</button>
+    </div>
+    <br />
+    <div class="music">
+      <h2>Intsall YouTube Music</h2>
+      <p style="width: 350px; margin-top: 10px;">
+        Add YouTube Music to your desktop for quick and easy access
+      </p>
+    </div>
+    <br /><br /><br />
+    <div class="grid">
+      <div class="tab">
+      <img
+        class="thumbnail"
+        src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https://substack-post-media.s3.amazonaws.com/public/images/083be2c9-0e33-47b8-8bd9-42ba599ac7be_1280x720.png"
+        alt="thumbnail-1"
+      />
+      <div class="container">
+          <p class="name">Tiger</p>
+          <p class="friend">
+            2 mutual friends
+          </p>
+          <button class="btn">Add Friend</button>
+
+      </div>
+    </div>
+    <div class="tab">
+      <img
+        class="thumbnail"
+        src="https://static.vecteezy.com/system/resources/thumbnails/040/149/606/small_2x/ai-generated-black-panther-stalks-prey-in-the-forest-wildlifegraphy-generative-ai-photo.jpg"
+        alt="thumbnail-1"
+      />
+      <div class="container">
+          <p class="name">Panther</p>
+          <p class="friend">
+            4 mutual friends
+          </p>
+          <button class="btn">Add Friend</button>
+
+      </div>
+    </div>
+    <div class="tab">
+      <img
+        class="thumbnail"
+        src="https://wallpaperaccess.com/full/427061.jpg"
+        alt="thumbnail-1"
+      />
+      <div class="container">
+          <p class="name">Lion</p>
+          <p class="friend">
+            3 mutual friends
+          </p>
+          <button class="btn">Add Friend</button>
+
+      </div>
+    </div>
+    </div>
+    <br /><br /><br />
+  </body>
+</html>
