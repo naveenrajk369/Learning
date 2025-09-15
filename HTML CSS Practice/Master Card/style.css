@@ -6,85 +6,88 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container{
-    margin: 16%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+  background-color: #e3f2fd;
 }
-.card{
-    padding: 24px;
- 
-    height: 225px;
-    width: 375px;
-    
-    background-color: #000;
-    border-radius: 25px;
-    box-shadow: 0 25px 45px rgba(0,0,0,0.3);
+.container {
+  margin: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.upper{
-    display: flex;
-    justify-content: space-between;
+.card {
+  padding: 24px;
+
+  height: 225px;
+  width: 375px;
+  background-size: cover;
+
+  background-image: url("bg.png");
+
+  border-radius: 25px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
 }
-.logo{
-    display: flex;
-    height: 35px;
-    padding: 3px;
-    justify-content: space-between;
-    align-items: center;
+.upper {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  height: 35px;
+  padding: 3px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo img{
-   
-    width: 48px;
+.logo img {
+  width: 48px;
 }
-.chip img{
-    width: 50px;
+.chip img {
+  width: 50px;
 }
 
-.card-name{
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    margin-left: 10px;
+.card-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
 }
 
 .details,
-.valid-date{
-    color: #fff;
+.valid-date {
+  color: #fff;
 }
-.lower{
-    margin-top: 38px;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.card-number{
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 3px;
-}
-.number{
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-.name{
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 16px;
+.lower {
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.valid-thru{
-     font-size: 12px;
-    font-weight: 400;
+.card-number {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+.number {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.name {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
 }
 
-.date{
-     font-size: 15px;
-    font-weight: 400;
+.valid-thru {
+  font-size: 12px;
+  font-weight: 400;
 }
-.valid-date{
-    margin-top: 46px;
+
+.date {
+  font-size: 15px;
+  font-weight: 400;
+}
+.valid-date {
+  margin-top: 46px;
 }
